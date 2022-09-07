@@ -10,3 +10,8 @@ git push origin master
 git branch
 git fetch
 git pull origin qa
+
+
+git clone https://github.com/jeffsampaul/test-training.git -b branch_name
+
+git checkout -b new_branch_name
