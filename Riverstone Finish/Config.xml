@@ -1,0 +1,31 @@
+<configuration> 
+  <appSettings>
+    <add key="Interval 1" value="16:15" />
+    <add key="Interval 2" value="16:18" />
+
+    <add key="Host" value="smtp.gmail.com" />
+    <add key="Port" value="587" />
+    <add key="enableSsl" value="true" />
+
+    <add key="FromMail" value="" />
+    <add key="Password" value="" />    
+    <add key="ToMail" value="apravinjebaraj84246@gmail.com,pravin@riverstonetech.com" />
+
+    <!--<add key="FromMail" value="riverstone.noreply@gmail.com" />
+    <add key="Password" value="River@1234" />    
+    <add key="ToMail" value="kanagarajan@riverstonetech.com,pravin@riverstonetech.com" />  -->
+    
+    
+    <add key="WorkingDaySubject" value="Daily Attendance Report" />    
+    <add key="HolidaySubject" value="Alert Holiday Attendance Report" />
+    <add key="WeekendSubject" value="Alert Weekend Attendance Report" />
+
+    <add key="DBPath" value="C:\Users\Lenovo\Documents\Riverstone 07-12-2021 (10)\eTimeTrackLite1.mdb;" />
+    
+    <Holiday>
+        <add key="Pongal" value="14-01-2022" />
+        <add key="Rep" value="26-01-2022" />
+    <add key="pravin" value="08-12-2021" /></Holiday>  
+    
+  </appSettings>
+</configuration>

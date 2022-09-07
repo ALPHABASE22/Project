@@ -1,0 +1,199 @@
+{
+  "id": "",
+  "href": "",
+  "version": "",
+  "sender": {
+    "isaId": "ISA06"
+  },
+  "receiver": {
+    "isaId": "ISA08"
+  },
+  "type": {
+    "name": ""
+  },
+  "stream": "",
+  "businessNumber": "",
+  "message": {
+    "interchangeControlHeader": [
+      {
+        "authorizationInformationQualifier": "ISA01",
+        "authorizationInformation": "ISA02",
+        "securityInformationQualifier": "ISA03",
+        "securityInformation": "ISA04",
+        "interchangeIDQualifier": "ISA05",
+        "interchangeSenderID": "ISA06",
+        "interchangeIDQualifier1": "ISA07",
+        "interchangeReceiverID": "ISA08",
+        "interchangeDate": "ISA09",
+        "interchangeTime": "ISA10",
+        "interchangeControlStandardsIdentifier": "ISA11-1",
+        "interchangeControlVersionNumberCode": "ISA12",
+        "interchangeControlNumber": "ISA13",
+        "acknowledgmentRequestedCode": "ISA14",
+        "interchangeUsageIndicatorCode": "ISA15",
+        "componentElementSeparator": "ISA16"
+      }
+    ],
+    "functionalGroupHeader": [
+      {
+        "functionalIdentifierCode": "GS01",
+        "applicationSendersCode": "GS02",
+        "applicationReceiversCode": "GS03",
+        "date": "GS04",
+        "time": "GS05",
+        "groupControlNumber": "GS06",
+        "responsibleAgencyCode": "GS07",
+        "versionReleaseIndustryIdentifierCode": "GS08"
+      }
+    ],
+    "transactionSets": [
+      {
+        "transactionSetHeader": [
+          {
+            "transactionSetIdentifierCode": "ST01",
+            "transactionSetControlNumber": "ST02"
+          }
+        ],
+        "beginningSegmentForPurchaseOrder": [
+          {
+            "transactionSetPurposeCode": "BEG01",
+            "purchaseOrderTypeCode": "BEG02",
+            "purchaseOrderNumber": "BEG03",
+            "date": "BEG05"
+          }
+        ],
+        "FOBRelatedInstructions": [
+          {
+            "shipmentMethodOfPaymentCode": "FOB01",
+            "locationQualifier": "FOB02",
+            "description": "FOB03",
+            "transportationTermsQualifierCode": "FOB04",
+            "transportationTermsCode": "FOB05"
+          }
+        ],
+        "dateTimeReference": [
+          {
+            "dateTimeQualifier": "DTM01",
+            "date": "DTM02"
+          }
+        ],
+        "N9_loop": [
+          {
+            "extendedReferenceInformation": [
+              {
+                "referenceIdentificationQualifier": "N901",
+                "referenceIdentification": "N902",
+                "freeFormDescription": "N903"
+              }
+            ],
+            "text": [
+              {
+                "textualData": "MTX02"
+              }
+            ]
+          }
+        ],
+        "N1_loop": [
+          {
+            "partyIdentification": [
+              {
+                "entityIdentifierCode": "N101",
+                "name": "N102",
+                "identificationCodeQualifier": "N103",
+                "identificationCode": "N104"
+              }
+            ],
+            "additionalNameInformation": [
+              {
+                "name": "N201"
+              }
+            ],
+            "geographicLocation": [
+              {
+                "cityName": "N401",
+                "locationQualifier": "N405",
+                "locationIdentifier": "N406"
+              }
+            ],
+            "carrierDetailsRoutingSequenceTransitTime": [
+              {
+                "transportationMethodTypeCode": "TD504"
+              }
+            ]
+          }
+        ],
+        "PO1_loop": [
+          {
+            "baselineItemData": [
+              {
+                "quantity": "PO102",
+                "unitOrBasisForMeasurementCode": "PO103",
+                "unitPrice": "PO104",
+                "basisOfUnitPriceCode": "PO105",
+                "productServiceIDQualifier": "PO106",
+                "productServiceID": "PO107",
+                "productServiceIDQualifier1": "PO108",
+                "productServiceID1": "PO109",
+                "productServiceIDQualifier9": "PO124",
+                "productServiceID9": "PO125"
+              }
+            ],
+            "PID_loop": [
+              {
+                "productItemDescription": [
+                  {
+                    "itemDescriptionTypeCode": "PID01",
+                    "description": "PID05"
+                  }
+                ]
+              }
+            ],
+            "SAC_loop": [
+              {
+                "servicePromotionAllowanceOrChargeInformation": [
+                  {
+                    "allowanceOrChargeIndicatorCode": "SAC01",
+                    "servicePromotionAllowanceOrChargeCode": "SAC02",
+                    "rate": "SAC08",
+                    "allowanceOrChargeMethodOfHandlingCode": "SAC12"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "CTT_loop": [
+          {
+            "transactionTotals": [
+              {
+                "numberOfLineItems": "CTT01",
+                "weight": "CTT03",
+                "unitOrBasisForMeasurementCode": "CTT04",
+                "volume": "CTT05",
+                "unitOrBasisForMeasurementCode1": "CTT06"
+              }
+            ],
+            "monetaryAmountInformation": [
+              {
+                "amountQualifierCode": "AMT01",
+                "monetaryAmount": "AMT02"
+              }
+            ]
+          }
+        ],
+        "transactionSetTrailer": [
+          {
+            "numberOfIncludedSegments": "SE01",
+            "transactionSetControlNumber": "SE02"
+          }
+        ]
+      }
+    ],
+    "href": ""
+  },
+  "validationStatus": "",
+  "deliveryStatus": "",
+  "acknowledgmentStatus": "",
+  "createdAt": "",
+  "lastUpdatedAt": ""
+}

@@ -1,0 +1,90 @@
+{
+    "transactionSets": [
+        {
+            "transactionSetHeader": [
+                {
+                    "transactionSetIdentifierCode": "810",
+                    "transactionSetControlNumber": "0001"
+                }
+            ],
+            "transactionSetTrailer": [
+                {
+                    "numberOfIncludedSegments": "17",
+                    "transactionSetControlNumber": "0001"
+                }
+            ],
+            "beginningSegmentForInvoice": [
+                {
+                    "date": "20220726",
+                    "invoiceNumber": "INV0414A",
+                    "purchaseOrderNumber": "01934984"
+                }
+            ],
+            "N1_loop": [
+                {
+                    "partyIdentification": [
+                        {
+                            "entityIdentifierCode": "BT",
+                            "name": "BRS - BENSALEM"
+                        }
+                    ]
+                }
+            ],
+            "termsOfSaleDeferredTermsOfSale": [
+                {
+                    "termsTypeCode": "01",
+                    "termsBasisDateCode": "3",
+                    "termsDiscountPercent": ".01",
+                    "termsDiscountDueDate": "20220830",
+                    "termsDiscountDaysDue": "35",
+                    "termsNetDueDate": "20220831",
+                    "termsNetDays": "36",
+                    "description": "1% 35 net36 days"
+                }
+            ],
+            "IT1_loop": [
+                {
+                    "baselineItemDataInvoice": [
+                        {
+                            "assignedIdentification": "1",
+                            "quantityInvoiced": "5",
+                            "unitOrBasisForMeasurementCode": "CA",
+                            "unitPrice": "20.64",
+                            "productServiceIDQualifier": "IN",
+                            "productServiceID": "J5330001"
+                        }
+                    ]
+                },
+                {
+                    "baselineItemDataInvoice": [
+                        {
+                            "assignedIdentification": "2",
+                            "quantityInvoiced": "10",
+                            "unitOrBasisForMeasurementCode": "CA",
+                            "unitPrice": "20.64",
+                            "productServiceIDQualifier": "IN",
+                            "productServiceID": "J5330009"
+                        }
+                    ]
+                },
+                {
+                    "baselineItemDataInvoice": [
+                        {
+                            "assignedIdentification": "3",
+                            "quantityInvoiced": "15",
+                            "unitOrBasisForMeasurementCode": "CA",
+                            "unitPrice": "23.40",
+                            "productServiceIDQualifier": "IN",
+                            "productServiceID": "J5330010"
+                        }
+                    ]
+                }
+            ],
+            "totalMonetaryValueSummary": [
+                {
+                    "amount": "66060"
+                }
+            ]
+        }
+    ]
+}

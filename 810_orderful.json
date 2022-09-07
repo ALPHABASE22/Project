@@ -1,0 +1,109 @@
+{
+	"type": {
+		"name": "810_INVOICE"
+	},
+	"stream": "test",
+	"sender": {
+		"isaId": "ODFLULTRAPROT"
+	},
+	"receiver": {
+		"isaId": "001903227T"
+	},
+	"message": {
+		"transactionSets": [
+			{
+				"beginningSegmentForInvoice": [
+					{
+						"date": "20220726",
+						"invoiceNumber": "INV0414A",
+						"purchaseOrderNumber": "01934984"
+					}
+				],
+				"N1_loop": [
+					{
+						"partyIdentification": [
+							{
+								"entityIdentifierCode": "BT",
+								"name": "BRS - BENSALEM"
+							}
+						],
+						"partyLocation": [
+							{
+								"addressInformation": "3600 PROGRESS DR",
+								"addressInformation1": "800-323-4903 C/S"
+							}
+						],
+						"geographicLocation": [
+							{
+								"cityName": "BENSALEM",
+								"stateOrProvinceCode": "PA",
+								"postalCode": "19020"
+							}
+						]
+					}
+				],
+				"termsOfSaleDeferredTermsOfSale": [
+					{
+						"termsTypeCode": "01",
+						"termsBasisDateCode": "3",
+						"termsDiscountPercent": ".01",
+						"termsDiscountDueDate": "20220719",
+						"termsDiscountDaysDue": "35",
+						"termsNetDueDate": "20220720",
+						"termsNetDays": "36",
+						"description": "1% 35 net36 days"
+					}
+				],
+				"IT1_loop": [
+					{
+						"baselineItemDataInvoice": [
+							{
+								"assignedIdentification": "1",
+								"quantityInvoiced": "5",
+								"unitOrBasisForMeasurementCode": "CA",
+								"unitPrice": "20.64",
+								"productServiceIDQualifier": "IN",
+								"productServiceID": "J5330001"
+							}
+						]
+					},
+					{
+						"baselineItemDataInvoice": [
+							{
+								"unitPrice": "20.64",
+								"productServiceID": "J5330001",
+								"quantityInvoiced": "10",
+								"assignedIdentification": "2",
+								"productServiceIDQualifier": "IN",
+								"unitOrBasisForMeasurementCode": "CA"
+							}
+						]
+					},
+					{
+						"baselineItemDataInvoice": [
+							{
+								"unitPrice": "23.40",
+								"productServiceID": "J5330010",
+								"quantityInvoiced": "15",
+								"assignedIdentification": "3",
+								"productServiceIDQualifier": "IN",
+								"unitOrBasisForMeasurementCode": "CA"
+							}
+						]
+					}
+				],
+				"totalMonetaryValueSummary": [
+					{
+						"amount": "455400"
+					}
+				],
+				"transactionTotals": [
+					{
+						"numberOfLineItems": "3",
+						"hashTotal": "30"
+					}
+				]
+			}
+		]
+	}
+}

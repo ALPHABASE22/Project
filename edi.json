@@ -1,0 +1,444 @@
+{
+    "id": 73282080,
+    "from": {
+        "idType": "isaId",
+        "id": "001903227T"
+    },
+    "to": {
+        "idType": "isaId",
+        "id": "ODFLULTRAPROT"
+    },
+    "stream": "test",
+    "businessNumber": "01934984",
+    "creatorParty": "SENDER",
+    "deliveryStatus": "SENT",
+    "validationStatus": "VALID",
+    "acknowledgmentStatus": "NOT_ACKNOWLEDGED",
+    "status": "DISPATCHED",
+    "message": {
+        "transactionSets": [
+            {
+                "N1_loop": [
+                    {
+                        "partyLocation": [
+                            {
+                                "addressInformation": "3600 PROGRESS DR",
+                                "addressInformation1": "800-323-4903 C/S"
+                            }
+                        ],
+                        "geographicLocation": [
+                            {
+                                "cityName": "BENSALEM",
+                                "postalCode": "19020",
+                                "stateOrProvinceCode": "PA"
+                            }
+                        ],
+                        "partyIdentification": [
+                            {
+                                "name": "BRS - BENSALEM",
+                                "identificationCode": "00000104",
+                                "entityIdentifierCode": "ST",
+                                "identificationCodeQualifier": "92"
+                            }
+                        ]
+                    }
+                ],
+                "N9_loop": [
+                    {
+                        "text": [
+                            {
+                                "textualData": "############################################################"
+                            },
+                            {
+                                "textualData": "DELIVERY APPOINTMENT REQUIRED!  CALL 215-638-3013 Ext.26119"
+                            },
+                            {
+                                "textualData": "104scheduling@BunzlBRS.com 72 hours in advance.  SHIP ALL BA"
+                            },
+                            {
+                                "textualData": "------------------------------------------------------------"
+                            },
+                            {
+                                "textualData": "############################################################"
+                            },
+                            {
+                                "textualData": "Bunzl Retail Services requires all carrier drivers to wear a"
+                            },
+                            {
+                                "textualData": "vest from the time they exit their vehicle through and until"
+                            },
+                            {
+                                "textualData": "depart from the Bunzl Retail Services premises in their vehi"
+                            },
+                            {
+                                "textualData": "############################################################"
+                            },
+                            {
+                                "textualData": "############################################################"
+                            },
+                            {
+                                "textualData": "ALL SHIPMENTS MUST HAVE A VALID BRS PO# ON THE SHIPPING LABE"
+                            },
+                            {
+                                "textualData": "ON THE PACKING SLIP ON THE LEAD CARTON"
+                            },
+                            {
+                                "textualData": "############################################################"
+                            },
+                            {
+                                "textualData": "THE PRICING ON THIS PO WILL BE ASSUMED TO BE CORRECT"
+                            },
+                            {
+                                "textualData": "UNLESS WE HEAR FROM YOU WITHIN 24 HOURS."
+                            },
+                            {
+                                "textualData": "-----------------------------------------------------------"
+                            },
+                            {
+                                "textualData": "ONLY THE AMOUNT SHOWN ON THIS PURCHASE ORDER WILL BE PAID."
+                            },
+                            {
+                                "textualData": "IF THE PURCHASE ORDER PRICING IS INCORRECT, PLEASE REQUEST"
+                            },
+                            {
+                                "textualData": "A MODIFIED PURCHASE ORDER PRIOR TO SHIPMENT."
+                            },
+                            {
+                                "textualData": "-----------------------------------------------------------"
+                            },
+                            {
+                                "textualData": "THIS PURCHASE ORDER NUMBER MUST APPEAR ON ALL DOCUMENTS"
+                            },
+                            {
+                                "textualData": "INCLUDING CARRIER BILLS OF LADING."
+                            },
+                            {
+                                "textualData": "-----------------------------------------------------------"
+                            },
+                            {
+                                "textualData": "PLEASE CONFIRM RECEIPT OF THIS PO AND ACCEPTANCE OF"
+                            },
+                            {
+                                "textualData": "REQUIRED DELIVERY DATE(S) WITHIN 24 HOURS OF RECEIPT."
+                            },
+                            {
+                                "textualData": "IF DELIVERY DATES ARE NOT ACCEPTABLE PLEASE NOTE"
+                            },
+                            {
+                                "textualData": "THE CHANGED DATE ON YOUR PO CONFIRMATION."
+                            },
+                            {
+                                "textualData": "##########################################################"
+                            },
+                            {
+                                "textualData": "Send All Invoices to:"
+                            },
+                            {
+                                "textualData": " BRS (Loc. Name) Ex.: Bunzl Retail Services Groveport (121)"
+                            },
+                            {
+                                "textualData": "                      PO Box 270099"
+                            },
+                            {
+                                "textualData": "                      St Louis, MO 63127-0099"
+                            },
+                            {
+                                "textualData": "Or email to: BD-Schwarz-Invoices@dataserv-stl.com"
+                            },
+                            {
+                                "textualData": "###########################################################"
+                            },
+                            {
+                                "textualData": "-----------------------------------------------------------"
+                            },
+                            {
+                                "textualData": "-  BRS requires all carrier drivers to wear a high"
+                            },
+                            {
+                                "textualData": "visibility vest from the time they exit their vehicle"
+                            },
+                            {
+                                "textualData": "through and until the time they depart from the BRS"
+                            },
+                            {
+                                "textualData": "premises in their vehicle."
+                            },
+                            {
+                                "textualData": "-----------------------------------------------------------"
+                            },
+                            {
+                                "textualData": "Send All freight Bills for Truckload collect shipments to:"
+                            },
+                            {
+                                "textualData": "Bunzl Retail Services % US Bank Syncada (EDI)"
+                            },
+                            {
+                                "textualData": "Dept: SWZIBD"
+                            },
+                            {
+                                "textualData": "PO BOX: 3001"
+                            },
+                            {
+                                "textualData": "Naperville, IL 60566"
+                            }
+                        ],
+                        "extendedReferenceInformation": [
+                            {
+                                "referenceIdentification": "NOTES",
+                                "referenceIdentificationQualifier": "ZZ"
+                            }
+                        ]
+                    }
+                ],
+                "CTT_loop": [
+                    {
+                        "transactionTotals": [
+                            {
+                                "numberOfLineItems": "3"
+                            }
+                        ]
+                    }
+                ],
+                "PO1_loop": [
+                    {
+                        "N9_loop": [
+                            {
+                                "extendedReferenceInformation": [
+                                    {
+                                        "referenceIdentification": "NOTES",
+                                        "referenceIdentificationQualifier": "ZZ"
+                                    }
+                                ]
+                            }
+                        ],
+                        "PID_loop": [
+                            {
+                                "productItemDescription": [
+                                    {
+                                        "description": "2-RING CD REFILL PAGES",
+                                        "itemDescriptionTypeCode": "F"
+                                    }
+                                ]
+                            }
+                        ],
+                        "baselineItemData": [
+                            {
+                                "quantity": "5",
+                                "unitPrice": "20.64",
+                                "productServiceID": "J5330001",
+                                "productServiceID1": "51003",
+                                "assignedIdentification": "0001000",
+                                "productServiceIDQualifier": "IN",
+                                "productServiceIDQualifier1": "MG",
+                                "unitOrBasisForMeasurementCode": "CA"
+                            }
+                        ],
+                        "dateTimeReference": [
+                            {
+                                "date": "20220509",
+                                "dateTimeQualifier": "002"
+                            }
+                        ],
+                        "itemPhysicalDetails": [
+                            {
+                                "pack": "48",
+                                "size": "1",
+                                "unitOrBasisForMeasurementCode": "CS"
+                            }
+                        ]
+                    },
+                    {
+                        "N9_loop": [
+                            {
+                                "extendedReferenceInformation": [
+                                    {
+                                        "referenceIdentification": "NOTES",
+                                        "referenceIdentificationQualifier": "ZZ"
+                                    }
+                                ]
+                            }
+                        ],
+                        "PID_loop": [
+                            {
+                                "productItemDescription": [
+                                    {
+                                        "description": "2-RING 4X6 REFILL PAGES",
+                                        "itemDescriptionTypeCode": "F"
+                                    }
+                                ]
+                            }
+                        ],
+                        "baselineItemData": [
+                            {
+                                "quantity": "10",
+                                "unitPrice": "20.64",
+                                "productServiceID": "J5330009",
+                                "productServiceID1": "51029",
+                                "assignedIdentification": "0002000",
+                                "productServiceIDQualifier": "IN",
+                                "productServiceIDQualifier1": "MG",
+                                "unitOrBasisForMeasurementCode": "CA"
+                            }
+                        ],
+                        "dateTimeReference": [
+                            {
+                                "date": "20220509",
+                                "dateTimeQualifier": "002"
+                            }
+                        ],
+                        "itemPhysicalDetails": [
+                            {
+                                "pack": "48",
+                                "size": "1",
+                                "unitOrBasisForMeasurementCode": "CS"
+                            }
+                        ]
+                    },
+                    {
+                        "N9_loop": [
+                            {
+                                "extendedReferenceInformation": [
+                                    {
+                                        "referenceIdentification": "NOTES",
+                                        "referenceIdentificationQualifier": "ZZ"
+                                    }
+                                ]
+                            }
+                        ],
+                        "PID_loop": [
+                            {
+                                "productItemDescription": [
+                                    {
+                                        "description": "TRADITIONAL ASRT COLOR PACK",
+                                        "itemDescriptionTypeCode": "F"
+                                    }
+                                ]
+                            }
+                        ],
+                        "baselineItemData": [
+                            {
+                                "quantity": "15",
+                                "unitPrice": "23.40",
+                                "productServiceID": "J5330010",
+                                "productServiceID1": "51035",
+                                "assignedIdentification": "0003000",
+                                "productServiceIDQualifier": "IN",
+                                "productServiceIDQualifier1": "MG",
+                                "unitOrBasisForMeasurementCode": "CA"
+                            }
+                        ],
+                        "dateTimeReference": [
+                            {
+                                "date": "20220509",
+                                "dateTimeQualifier": "002"
+                            }
+                        ],
+                        "itemPhysicalDetails": [
+                            {
+                                "pack": "36",
+                                "size": "1",
+                                "unitOrBasisForMeasurementCode": "CS"
+                            }
+                        ]
+                    }
+                ],
+                "dateTimeReference": [
+                    {
+                        "date": "20220509",
+                        "dateTimeQualifier": "002"
+                    }
+                ],
+                "referenceInformation": [
+                    {
+                        "referenceIdentification": "E3123456",
+                        "referenceIdentificationQualifier": "PO"
+                    }
+                ],
+                "transactionSetHeader": [
+                    {
+                        "transactionSetControlNumber": "0001",
+                        "transactionSetIdentifierCode": "850"
+                    }
+                ],
+                "transactionSetTrailer": [
+                    {
+                        "numberOfIncludedSegments": "73",
+                        "transactionSetControlNumber": "0001"
+                    }
+                ],
+                "FOBRelatedInstructions": [
+                    {
+                        "shipmentMethodOfPaymentCode": "PP"
+                    }
+                ],
+                "termsOfSaleDeferredTermsOfSale": [
+                    {
+                        "description": "1% 35 net36 days",
+                        "termsNetDays": "36",
+                        "termsTypeCode": "01",
+                        "termsBasisDateCode": "3",
+                        "termsDiscountDaysDue": "35",
+                        "termsDiscountPercent": ".01"
+                    }
+                ],
+                "beginningSegmentForPurchaseOrder": [
+                    {
+                        "date": "20220509",
+                        "purchaseOrderNumber": "01934984",
+                        "purchaseOrderTypeCode": "NE",
+                        "transactionSetPurposeCode": "00"
+                    }
+                ],
+                "administrativeCommunicationsContact": [
+                    {
+                        "name": "SPC ULTRA PRO INTERNATIONAL LL",
+                        "contactFunctionCode": "BD"
+                    }
+                ]
+            }
+        ],
+        "functionalGroupHeader": [
+            {
+                "date": "20220510",
+                "time": "092300",
+                "groupControlNumber": "5",
+                "responsibleAgencyCode": "X",
+                "applicationSendersCode": "001903227",
+                "applicationReceiversCode": "ODFLULTRAPROT",
+                "functionalIdentifierCode": "PO",
+                "versionReleaseIndustryIdentifierCode": "004010"
+            }
+        ],
+        "interchangeControlHeader": [
+            {
+                "interchangeDate": "220510",
+                "interchangeTime": "0923",
+                "interchangeSenderID": "001903227T     ",
+                "securityInformation": "          ",
+                "interchangeReceiverID": "ODFLULTRAPROT  ",
+                "interchangeIDQualifier": "ZZ",
+                "interchangeIDQualifier1": "ZZ",
+                "authorizationInformation": "          ",
+                "interchangeControlNumber": "000000005",
+                "componentElementSeparator": ">",
+                "acknowledgmentRequestedCode": "0",
+                "securityInformationQualifier": "00",
+                "interchangeUsageIndicatorCode": "T",
+                "authorizationInformationQualifier": "00",
+                "interchangeControlVersionNumberCode": "00401",
+                "interchangeControlStandardsIdentifier": "U"
+            }
+        ]
+    },
+    "messageSizeInBytes": 7752,
+    "structureChangelog": [],
+    "ruleErrors": [],
+    "createdAt": "2022-05-10T14:24:20.298Z",
+    "latestRevisionAt": "2022-05-10T14:24:20.401Z",
+    "type": {
+        "name": "850_PURCHASE_ORDER"
+    },
+    "links": {
+        "attachments": "/transactions/73282080/attachments"
+    }
+}

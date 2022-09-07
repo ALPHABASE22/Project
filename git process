@@ -1,0 +1,12 @@
+sudo apt install git
+brew install git
+git remote add origin https://github.com/jeffsampaul/test-training.git
+git remote -v
+git pull origin master
+git add test1
+git add test1.py
+git commit -m "Commited the file1"
+git push origin master
+git branch
+git fetch
+git pull origin qa

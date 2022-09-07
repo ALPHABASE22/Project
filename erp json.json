@@ -1,0 +1,113 @@
+{
+    "type": {
+        "name": "810_INVOICE"
+    },
+    "stream": "test",
+    "sender": {
+        "isaId": "ODFLULTRAPROT"
+    },
+    "receiver": {
+        "isaId": "001903227T"
+    },
+    "message": {
+        "transactionSets": [
+            {
+                "beginningSegmentForInvoice": [
+                    {
+                        "date": "20220808",
+                        "invoiceNumber": "INV0414A",
+                        "purchaseOrderNumber": "01934984"
+                    }
+                ],
+                "N1_loop": [
+                    {
+                        "partyIdentification": [
+                            {
+                                "entityIdentifierCode": "BT",
+                                "name": "BRS - BENSALEM"
+                            }
+                        ],
+                        "partyLocation": [
+                            {
+                                "addressInformation": "3600 PROGRESS DR",
+                                "addressInformation1": "800-323-4903 C/S"
+                            }
+                        ],
+                        "geographicLocation": [
+                            {
+                                "cityName": "BENSALEM",
+                                "stateOrProvinceCode": "PA",
+                                "postalCode": "19020"
+                            }
+                        ]
+                    }
+                ],
+                "termsOfSaleDeferredTermsOfSale": [
+                    {
+                        "termsTypeCode": "01",
+                        "termsBasisDateCode": "3",
+                        "termsDiscountPercent": "0.01",
+                        "termsDiscountDueDate": "20220912",
+                        "termsDiscountDaysDue": "35",
+                        "termsNetDueDate": "20220913",
+                        "termsNetDays": "36",
+                        "description": "1% 35 net36 days"
+                    }
+                ],
+                "IT1_loop": [
+                    {
+                        "baselineItemDataInvoice": [
+                            {
+                                "assignedIdentification": "1",
+                                "unitPrice": "20.64",
+                                "productServiceID": "J5330001",
+                                "quantityInvoiced": "5",
+                                "productServiceIDQualifier": "IN",
+                                "unitOrBasisForMeasurementCode": "CA"
+                            }
+                        ]
+                    },
+                    {
+                        "baselineItemDataInvoice": [
+                            {
+                                "assignedIdentification": "2",
+                                "unitPrice": "23.4",
+                                "productServiceID": "J5330010",
+                                "quantityInvoiced": "15",
+                                "productServiceIDQualifier": "IN",
+                                "unitOrBasisForMeasurementCode": "CA"
+                            }
+                        ]
+                    },
+                    {
+                        "baselineItemDataInvoice": [
+                            {
+                                "assignedIdentification": "3",
+                                "unitPrice": "20.64",
+                                "productServiceID": "J5330009",
+                                "quantityInvoiced": "10",
+                                "productServiceIDQualifier": "IN",
+                                "unitOrBasisForMeasurementCode": "CA"
+                            }
+                        ]
+                    }
+                ],
+                "totalMonetaryValueSummary": [
+                    {
+                        "amount": "455400"
+                    }
+                ],
+                "transactionTotals": [
+                    {
+                        "numberOfLineItems": "4",
+                        "hashTotal": "30"
+                    }
+                ]
+            }
+        ]
+    }
+}
+
+
+
+

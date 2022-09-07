@@ -1,0 +1,142 @@
+{
+   "interchangeControlHeader": [
+      {
+         "authorizationInformationQualifier": "00",
+         "authorizationInformation": "          ",
+         "securityInformationQualifier": "00",
+         "securityInformation": "          ",
+         "interchangeIDQualifier": "ZZ",
+         "interchangeSenderID": "ODFLULTRAPROT  ",
+         "interchangeIDQualifier1": "ZZ",
+         "interchangeReceiverID": "001903227T     ",
+         "interchangeDate": "220808",
+         "interchangeTime": "0348",
+         "repetitionSeparator": "^",
+         "interchangeControlStandardsIdentifier": "U",
+         "interchangeControlVersionNumberCode": "00401",
+         "interchangeControlNumber": "000000052",
+         "acknowledgmentRequestedCode": "0",
+         "interchangeUsageIndicatorCode": "T",
+         "componentElementSeparator": ">"
+      }
+   ],
+   "functionalGroupHeader": [
+      {
+         "functionalIdentifierCode": "IN",
+         "applicationSendersCode": "ODFLULTRAPROT",
+         "applicationReceiversCode": "001903227T",
+         "date": "20220808",
+         "time": "0348",
+         "groupControlNumber": "52",
+         "responsibleAgencyCode": "X",
+         "versionReleaseIndustryIdentifierCode": "004010"
+      }
+   ],
+   "transactionSets": [
+      {
+         "transactionSetHeader": [
+            {
+               "transactionSetIdentifierCode": "810",
+               "transactionSetControlNumber": "0001"
+            }
+         ],
+         "beginningSegmentForInvoice": [
+            {
+               "date": "20220808",
+               "invoiceNumber": "INV0414A",
+               "purchaseOrderNumber": "01934984"
+            }
+         ],
+         "N1_loop": [
+            {
+               "partyIdentification": [
+                  {
+                     "entityIdentifierCode": "BT",
+                     "name": "BRS - BENSALEM"
+                  }
+               ],
+               "partyLocation": [
+                  {
+                     "addressInformation": "3600 PROGRESS DR",
+                     "addressInformation1": "800-323-4903 C/S"
+                  }
+               ],
+               "geographicLocation": [
+                  {
+                     "cityName": "BENSALEM",
+                     "stateOrProvinceCode": "PA",
+                     "postalCode": "19020"
+                  }
+               ]
+            }
+         ],
+         "termsOfSaleDeferredTermsOfSale": [
+            {
+               "termsTypeCode": "01",
+               "termsBasisDateCode": "3",
+               "termsDiscountPercent": ".01",
+               "termsDiscountDueDate": "20220912",
+               "termsDiscountDaysDue": "35",
+               "termsNetDueDate": "20220913",
+               "termsNetDays": "36",
+               "description": "1% 35 net36 days"
+            }
+         ],
+         "IT1_loop": [
+            {
+               "baselineItemDataInvoice": [
+                  {
+                     "assignedIdentification": "1",
+                     "quantityInvoiced": "5",
+                     "unitOrBasisForMeasurementCode": "CA",
+                     "unitPrice": "20.64",
+                     "productServiceIDQualifier": "IN",
+                     "productServiceID": "J5330001"
+                  }
+               ]
+            },
+            {
+               "baselineItemDataInvoice": [
+                  {
+                     "unitPrice": "23.4",
+                     "productServiceID": "J5330010",
+                     "quantityInvoiced": "15",
+                     "assignedIdentification": "2",
+                     "productServiceIDQualifier": "IN",
+                     "unitOrBasisForMeasurementCode": "CA"
+                  }
+               ]
+            },
+            {
+               "baselineItemDataInvoice": [
+                  {
+                     "unitPrice": "20.64",
+                     "productServiceID": "J5330009",
+                     "quantityInvoiced": "10",
+                     "assignedIdentification": "3",
+                     "productServiceIDQualifier": "IN",
+                     "unitOrBasisForMeasurementCode": "CA"
+                  }
+               ]
+            }
+         ],
+         "totalMonetaryValueSummary": [
+            {
+               "amount": "455400"
+            }
+         ],
+         "transactionTotals": [
+            {
+               "numberOfLineItems": "3",
+               "hashTotal": "30"
+            }
+         ],
+         "transactionSetTrailer": [
+            {
+               "numberOfIncludedSegments": "12",
+               "transactionSetControlNumber": "0001"
+            }
+         ]
+      }
+   ]
+}

@@ -1,0 +1,55 @@
+{
+  "orders":[
+     {
+        "blanket_order_type": "Selling",
+        "up_bo_status": "In-Progress",
+        "physical_warehouse":"Belgium - Kortenberg (Europe) - UPIL",
+        "sales_agent_code":"MATC-MATTHEW CHASTEEN",
+        "sales_channel":"B2B",
+        "customer_info":{
+           "id":4000,
+           "firstname":"Jefferson",
+           "lastname":"David",
+           "ship_to_address":
+              {
+                 "location_id":"3003",
+                 "email":"jeff@ultrapro.com",
+                 "company_name":"GTS DIST - So.CAL",
+                 "phone_number":"714-940-0860",
+                 "street":"block 29, 1410 N POPE",
+                 "city":"Hotwarm",
+                 "state":"CA",
+                 "zip":"92867",
+                 "country":"US"
+              }
+        },
+        "company_currency":"USD",
+        "currency": "USD",
+        "price_list_currency": "USD",
+        "conversion_rate": "1",
+        "plc_conversion_rate": "1",
+        "special_instruction":"Special instructions field go here",
+        "warehouse_instruction": "Warehouse Instructions",
+        "items":[
+           {
+              "item_code":"26108",
+              "item_name":"26108",
+              "rate":4800,
+              "description":"Test item",
+              "uom":"Nos",
+              "qty":2,
+              "tax":5.25
+           },
+           {
+              "item_code":"101877",
+              "item_name":"101877",
+              "rate":4500,
+              "description":"Test item 2",
+              "uom":"Nos",
+              "qty":5,
+              "tax":15.25
+           }
+        ]
+     }
+  ]
+}
